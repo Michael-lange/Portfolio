@@ -2,21 +2,31 @@ html{
     scroll-behavior: smooth;
 }
 
+.accent-color{
+  color: #66b7a7;
+}
 
+.accent-color-background{
+  background-color: #66b7a7;
+}
 
 .bkg{
-    background-color: rgba(6, 25, 54, 0.986);
+    background-color: #2c3037;
     color: rgb(255, 255, 255);
 }
 
 .skills{
-    background-color: rgba(36, 76, 128, 0.25);
+    background-color: rgba(102, 183, 167, 0.25);
     border-radius: 25px;
     padding: 10px;
     display:inline;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: small;
-    color: rgb(68, 142, 238);
+    color: #66b7a7;
+}
+
+section{
+  margin-top: 20px;
 }
 
 .lightgray{
