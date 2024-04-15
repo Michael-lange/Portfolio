@@ -43,7 +43,13 @@ a:link{
     color: white;
 }
 
+a:hover{
+  color:#66b7a7;
+}
 
+.nav-link:hover{
+  color: #66b7a7;
+}
 .iconSmall{
     font-size: 5px;
     vertical-align: middle;
