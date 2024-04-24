@@ -6,6 +6,9 @@
     color: $accent-color;
 }
 
+.nav-link:focus{
+  color: white;
+}
 
 .nav-link{
     color: white;
@@ -20,6 +23,7 @@ a:link{
     text-decoration: none;
     color: white;
 }
+
 
 a:hover{
   color: $accent-color;
