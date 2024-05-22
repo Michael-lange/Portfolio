@@ -23,7 +23,7 @@
         <div class="row ms-5 mt-5">
             <!--left col-->
             <div class="col-md-3 mt-5">
-                <div class="sticky-md-top mt-2">
+                <div class="sticky-md-top mt-2 medAnim">
                     <div class="row">
                         <h1 class="ms-1">Michael Lange</h1>
                     </div>
@@ -37,7 +37,7 @@
                         <ul class="nav flex-column nav-pills">
                             <nav id="quick-links">
                                 <li class="nav-item">
-                                    <a class="nav-link " aria-current="page" href="#about"><i class="bi bi-file-person-fill"></i> About</a>
+                                    <a class="nav-link " aria-current="page" href="#about"><i class="bi bi-file-person-fill "></i> About</a>
                                   </li>
                                   <li class="nav-item">
                                     <a class="nav-link active" href="#experience"><i class="bi bi-person-workspace"></i> Experience</a>
@@ -71,8 +71,8 @@
 
                     
                     <div class="mt-5">
-                        <div><a href="https://www.linkedin.com/in/michael-j-lange/" target="_blank"><i class="bi bi-linkedin h2"></i></a></div>
-                        <div><a href="https://github.com/Michael-lange" target="_blank"><i class="bi bi-github h2"></i></a></div>
+                        <div><a href="https://www.linkedin.com/in/michael-j-lange/" class="icon-link icon-link-hover" target="_blank"><i class="bi bi-linkedin h2"></i></a></div>
+                        <div><a href="https://github.com/Michael-lange" class="icon-link icon-link-hover" target="_blank"><i class="bi bi-github h2"></i></a></div>
                     </div>
                     
                     
@@ -81,19 +81,19 @@
             </div>
             <!--right col-->
             <div class="col-md-6 mt-5" data-bs-spy="scroll" data-bs-target="#quick-links"  data-bs-smooth-scroll="true">
-                <section id="about">
+                <section class="medAnim" id="about">
                     <div class="row">
-                        <p class="lh-base mb-5">I'm a programmer and game designer from Fond du lac, WI. I am always eager to learn and apply skills to help create memorable gaming experiences.
+                        <p class="lh-base mb-5 ">I'm a programmer and game designer from Fond du lac, WI. I am always eager to learn and apply skills to help create memorable gaming experiences.
                             Currently I am learning to become a Front-End developer to improve my experience and create my own web portfolio.  Here are some of my projects. This website is currently
                              a work in progress.
                             </p>
                     </div>
                 </section>
-                <section>
-                    <h1 class="text-center poppins-medium-italic mt-5 pt-5">Experience</h1>
+                <section class="slowAnim">
+                    <h1 class="text-center poppins-medium-italic mt-5 pt-5 fastAnim">Experience</h1>
                     <hr>
                     <!--Experience #1-->
-                    <div id="experience" class="row mx-auto pt-5 expAnim">
+                    <div id="experience" class="row mx-auto pt-5">
                         <div class="col-2">
                             <p class="lightgray">March 2024 - Current</p>
                         </div>
@@ -125,7 +125,7 @@
                         
                     </div>
                     <!--job #2-->
-                    <div class="row mx-auto pt-5 expAnim">
+                    <div class="row mx-auto pt-5 ">
                         <div class="col-2">
                             <p class="lightgray">February 2022</p>
                         </div>
@@ -157,7 +157,7 @@
                         
                     </div>
                     <!--Job #3-->
-                    <div class="row mx-auto pt-5  expAnim">
+                    <div class="row mx-auto pt-5  ">
                         <div class="col-2">
                             <p class="lightgray">March 2021</p>
                         </div>
@@ -187,7 +187,7 @@
                         
                     </div>
                     <!--Job #4-->
-                    <div class="row mx-auto pt-5  expAnim">
+                    <div class="row mx-auto pt-5  ">
                         <div class="col-2">
                             <p class="lightgray">2019 - 2020</p>
                         </div>
@@ -222,8 +222,8 @@
                 
                 </section>
 
-                <section id="projects">
-                    <h1 class="text-center poppins-medium-italic pt-5">Projects</h1>
+                <section class="slowAnim" id="projects">
+                    <h1 class="text-center poppins-medium-italic pt-5 ">Projects</h1>
                     <hr>
                     
                     <div class="pt-5">
@@ -288,7 +288,7 @@
                     
                 </section>
 
-                <section id="education">
+                <section class="medAnim" id="education">
                     <h1 class="text-center poppins-medium-italic pt-5">Education</h1>
                     <hr>
                     <div>
@@ -318,5 +318,5 @@
     <script src="src/scripts/portfolio.js"></script>
 </body>
 
-  <footer class="text-center p-5 accent-color"><i class="bi bi-c-circle"></i> Copyright 2024</footer>
+  <footer class="text-center p-5 accent-color "><i class="bi bi-c-circle"></i> Copyright 2024</footer>
 </html>

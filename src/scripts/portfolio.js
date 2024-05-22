@@ -1,11 +1,12 @@
 
 $(document).ready(function(){
-    $('#education').hide();
-    $(".expAnim").hide();
-    
-    $('#education').toggle(1000);
-    $(".expAnim").slideDown(1200,'swing');
+    $(".medAnim").hide();
+    $(".fastAnim").hide();
+    $(".slowAnim").hide();
+    $(".fastAnim").slideDown(200,'swing');
+    $(".medAnim").slideDown(1200,'swing');
+    $(".slowAnim").slideDown(2000,'swing');
    
-    
+  
 });
 
